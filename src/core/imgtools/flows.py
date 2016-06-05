@@ -20,3 +20,8 @@ def get_gradient(img):
 	Get the gradient of an image.
 	"""
 	return cv2.Laplacian(img,cv2.CV_64F)
+
+def interpolate_orientation(img):
+	"""
+
+	"""
